@@ -20,9 +20,11 @@ html ::-webkit-scrollbar-thumb {
 
 html ::-webkit-scrollbar {
     width: 10px;
+    height: 100px;
 }
 
-/* navbar start  */
+/* Navbar start  */
+
 #navbar {
     background-color: #b2744c;
 }
@@ -50,5 +52,164 @@ html ::-webkit-scrollbar {
     color: black;
 }
 
-#navbar 
-/* navbar end  */
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* Navbar end  */
+
+/* Home section start  */
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/coffee1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 50px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+
+/* Home section end  */
+
+/* About section start  */
+
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #b2744c
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color:#b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #b2744c;
+    color: white;
+}
+
+@media screen and (max-width:982px) {
+    #about p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #about p {
+        font-size: 15px;
+    }
+    #about {
+        height: 120vh;
+    }
+}
+
+/* About section end  */
+
+/* Top card start  */
+
+#top-cards {
+    width: 100%;
+    /* height: 60vh; */
+    background: #f7f5f2;
+    
+}
+
+.heading-2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading-2 span {
+    color: #b2744c;
+}
+
+#top-cards .container {
+    margin-top: 30px;
+}
+
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-cards .card img {
+    border-radius: 10px;
+}
+
+#top-cards .card:hover {
+    transform: translateY(-10px);
+}
+ 
+
+/* Top card end  */

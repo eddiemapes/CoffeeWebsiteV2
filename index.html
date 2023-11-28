@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap  -->
@@ -20,52 +20,117 @@
     <!--  -->
 </head>
 <body>
-<div class="all-content">
-<!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg" id="navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#" id="logo"><img src="img/logo.jpg"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#menu">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#product">Product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blog">Blogs</a>
-          </li>
-          
-          
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+  <div class="all-content">
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo"><img src="img/logo.jpg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blogs</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Home section start   -->
+    
+      <section id="home">
+        <div class="content">
+          <h3>Start Your Day With a <br> Fresh Coffee <br></h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis placeat quos distinctio at culpa mollitia quae quaerat. Nesciunt, ipsum omnis?</p>
+          <button id="btn">Shop Now</button>
+        </div>
+      </section>
+
+
+
+    <!-- Home section end   -->
+
+
+    <!-- About section start  -->
+      <section id="about">
+        <div class="container">
+          <div class="heading">About <span>Us</span></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img src="img/beansWithCup.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3>What Makes Our Coffee Special?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit, reprehenderit laudantium amet quibusdam debitis porro itaque voluptatem incidunt cumque.</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga, numquam non tempore pariatur quae, sequi asperiores aperiam magnam atque eum eligendi, molestias ducimus a.</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga, numquam non tempore pariatur quae, sequi asperiores aperiam magnam atque eum eligendi, molestias ducimus a.</p>
+              <button id="about-btn">Learn More</button>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    <!-- About section end  -->
+
+   <!-- Top card start   -->
+
+    <section id="top-cards">
+      <div class="heading-2">Top <span>Categories</span></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="img/coffee3.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="img/coffeeWithNut.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="img/coffee2.jpg" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
-
-<!-- Navbar End -->
-
-
-
-</div>
+    </section> 
+    
+   <!-- Top card end   -->
 
 
 
@@ -74,6 +139,13 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+  </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
